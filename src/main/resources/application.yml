@@ -1,11 +1,6 @@
 server:
   port: 9000
+
 spring:
   application:
-    name: auth-server
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:9000
-
+    name: authorization-server
